@@ -11,17 +11,17 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="TheCollective/android_build" remote="aocp" revision="jb4.xx" >
+  <project path="build" name="AoCP-TC/android_build" remote="aocp" revision="jb4.xx" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="TheCollective/android_bionic" remote="github" revision="jb4.xx" />
+  <project path="bionic" name="AoCP-TC/android_bionic" remote="github" revision="jb4.xx" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="TheCollective/bootable_recovery" remote="aocp" revision="jb4.xx" />
+  <project path="bootable/recovery" name="AoCP-TC/bootable_recovery" remote="aocp" revision="jb4.xx" />
   <project path="cts" name="platform/cts" />
-  <project path="dalvik" name="TheCollective/android_dalvik" remote="github" revision="jb4.xx" />
-  <project path="development" name="TheCollective/android_development" remote="github" revision="jb4.xx" />
-  <project path="device/common" name="TheCollective/device_common" remote="github" revision="jb4.xx" />
+  <project path="dalvik" name="AoCP-TC/android_dalvik" remote="github" revision="jb4.xx" />
+  <project path="development" name="AoCP-TC/android_development" remote="github" revision="jb4.xx" />
+  <project path="device/common" name="AoCP-TC/device_common" remote="github" revision="jb4.xx" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
   <project path="device/generic/common" name="device/generic/common" />
@@ -41,19 +41,19 @@
   <project path="external/apache-xml" name="platform/external/apache-xml" />
   <project path="external/arduino" name="platform/external/arduino" />
   <project path="external/astl" name="platform/external/astl" />
-  <project path="external/bash" name="TheCollective/android_external_bash" remote="github" revision="jb4.xx" />
+  <project path="external/bash" name="AoCP-TC/android_external_bash" remote="github" revision="jb4.xx" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="TheCollective/android_external_bluetooth_bluedroid" remote="github" revision="jb4.xx" />
+  <project path="external/bluetooth/bluedroid" name="AoCP-TC/android_external_bluetooth_bluedroid" remote="github" revision="jb4.xx" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
-  <project path="external/busybox" name="TheCollective/android_external_busybox" remote="github" revision="jb4.xx" />
+  <project path="external/busybox" name="AoCP-TC/android_external_busybox" remote="github" revision="jb4.xx" />
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" />
   <project path="external/cibu-fonts" name="platform/external/cibu-fonts" />
-  <project path="external/clang" name="TheCollective/android_external_clang" remote="github" revision="jb4.xx"  />
+  <project path="external/clang" name="AoCP-TC/android_external_clang" remote="github" revision="jb4.xx"  />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" />
   <project path="external/dbus" name="platform/external/dbus" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
@@ -78,7 +78,7 @@
   <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
   <project path="external/ganymed-ssh2" name="platform/external/ganymed-ssh2" />
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" />
-  <project path="external/genext2fs" name="TheCollective/android_external_genext2fs" remote="github" revision="jb4.xx" />
+  <project path="external/genext2fs" name="AoCP-TC/android_external_genext2fs" remote="github" revision="jb4.xx" />
   <project path="external/giflib" name="platform/external/giflib" />
   <project path="external/google-diff-match-patch" name="platform/external/google-diff-match-patch" />
   <project path="external/grub" name="platform/external/grub" />
@@ -108,7 +108,7 @@
   <project path="external/libgsm" name="platform/external/libgsm" />
   <project path="external/liblzf" name="platform/external/liblzf" />
   <project path="external/libmtp" name="platform/external/libmtp" />
-  <project path="external/libncurses" name="TheCollective/android_external_libncurses" remote="github" revision="jb4.xx" />
+  <project path="external/libncurses" name="AoCP-TC/android_external_libncurses" remote="github" revision="jb4.xx" />
   <project path="external/libnfc-nci" name="platform/external/libnfc-nci" />
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" />
@@ -161,7 +161,7 @@
   <project path="external/replicaisland" name="platform/external/replicaisland" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/sepolicy" name="platform/external/sepolicy" />
-  <project path="external/skia" name="TheCollective/android_external_skia" remote="github" revision="jb4.xx" />
+  <project path="external/skia" name="AoCP-TC/android_external_skia" remote="github" revision="jb4.xx" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
@@ -180,18 +180,18 @@
   <project path="external/tremolo" name="platform/external/tremolo" />
   <project path="external/v8" name="platform/external/v8" />
   <project path="external/valgrind" name="platform/external/valgrind" />
-  <project path="external/webkit" name="TheCollective/android_external_webkit" remote="github" revision="jb4.xx" />
+  <project path="external/webkit" name="AoCP-TC/android_external_webkit" remote="github" revision="jb4.xx" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
-  <project path="external/wpa_supplicant_6" name="TheCollective/android_external_wpa_supplicant_6" remote="github" revision="jb4.xx" />
-  <project path="external/wpa_supplicant_8" name="TheCollective/android_external_wpa_supplicant_8" remote="github" revision="jb4.xx" />
+  <project path="external/wpa_supplicant_6" name="AoCP-TC/android_external_wpa_supplicant_6" remote="github" revision="jb4.xx" />
+  <project path="external/wpa_supplicant_8" name="AoCP-TC/android_external_wpa_supplicant_8" remote="github" revision="jb4.xx" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
-  <project path="external/yaffs2" name="TheCollective/android_external_yaffs2" remote="github" revision="jb4.xx" />
-  <project path="external/zlib" name="TheCollective/android_external_zlib" remote="github" revision="jb4.xx" />
+  <project path="external/yaffs2" name="AoCP-TC/android_external_yaffs2" remote="github" revision="jb4.xx" />
+  <project path="external/zlib" name="AoCP-TC/android_external_zlib" remote="github" revision="jb4.xx" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="TheCollective/frameworks_av" remote="github" revision="jb4.xx" />
-  <project path="frameworks/base" name="TheCollective/android_frameworks_base" remote="aocp" revision="jb4.xx" />
+  <project path="frameworks/av" name="AoCP-TC/frameworks_av" remote="github" revision="jb4.xx" />
+  <project path="frameworks/base" name="AoCP-TC/android_frameworks_base" remote="aocp" revision="jb4.xx" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" />
@@ -200,7 +200,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="TheCollective/frameworks_native" remote="github" revision="jb4.xx" />
+  <project path="frameworks/native" name="AoCP-TC/frameworks_native" remote="github" revision="jb4.xx" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
@@ -208,94 +208,94 @@
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
-  <project path="frameworks/opt/telephony" name="TheCollective/frameworks_opt_telephony" remote="github" revision="jb4.xx" />
-  <project path="frameworks/opt/vcard" name="TheCollective/android_frameworks_opt_vcard" remote="github" revision="jb4.xx" />
+  <project path="frameworks/opt/telephony" name="AoCP-TC/frameworks_opt_telephony" remote="github" revision="jb4.xx" />
+  <project path="frameworks/opt/vcard" name="AoCP-TC/android_frameworks_opt_vcard" remote="github" revision="jb4.xx" />
   <project path="frameworks/rs" name="platform/frameworks/rs" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="gdk" name="platform/gdk" />
-  <project path="hardware/broadcom/wlan" name="TheCollective/hardware_broadcom_wlan" remote="github" revision="jb4.xx" />
+  <project path="hardware/broadcom/wlan" name="AoCP-TC/hardware_broadcom_wlan" remote="github" revision="jb4.xx" />
   <project path="hardware/invensense" name="platform/hardware/invensense" revision="refs/tags/android-4.2.1_r1.2" />
-  <project path="hardware/libhardware" name="TheCollective/hardware_libhardware" remote="github" revision="jb4.xx" />
-  <project path="hardware/libhardware_legacy" name="TheCollective/hardware_libhardware_legacy" remote="github" revision="jb4.xx" />
-  <project path="hardware/msm7k" name="TheCollective/hardware_msm7k" remote="github" revision="jb4.xx" />
-  <project path="hardware/qcom/audio" name="TheCollective/hardware_qcom_audio" remote="github" revision="jb4.xx" />
-  <project path="hardware/qcom/bt" name="TheCollective/hardware_qcom_bt" remote="github" revision="jb4.xx" />
+  <project path="hardware/libhardware" name="AoCP-TC/hardware_libhardware" remote="github" revision="jb4.xx" />
+  <project path="hardware/libhardware_legacy" name="AoCP-TC/hardware_libhardware_legacy" remote="github" revision="jb4.xx" />
+  <project path="hardware/msm7k" name="AoCP-TC/hardware_msm7k" remote="github" revision="jb4.xx" />
+  <project path="hardware/qcom/audio" name="AoCP-TC/hardware_qcom_audio" remote="github" revision="jb4.xx" />
+  <project path="hardware/qcom/bt" name="AoCP-TC/hardware_qcom_bt" remote="github" revision="jb4.xx" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" revision="refs/tags/android-4.2.1_r1.2" />
-  <project path="hardware/qcom/display" name="TheCollective/hardware_qcom_display" remote="github" revision="jb4.xx" />
-  <project path="hardware/qcom/gps" name="TheCollective/hardware_qcom_gps" remote="github" revision="jb4.xx" />
+  <project path="hardware/qcom/display" name="AoCP-TC/hardware_qcom_display" remote="github" revision="jb4.xx" />
+  <project path="hardware/qcom/gps" name="AoCP-TC/hardware_qcom_gps" remote="github" revision="jb4.xx" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" revision="refs/tags/android-4.2.1_r1.2" />
-  <project path="hardware/qcom/media" name="TheCollective/hardware_qcom_media" remote="github" revision="jb4.xx" />
+  <project path="hardware/qcom/media" name="AoCP-TC/hardware_qcom_media" remote="github" revision="jb4.xx" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" revision="refs/tags/android-4.2.1_r1.2" />
-  <project path="hardware/qcom/power" name="TheCollective/hardware_qcom_power" remote="github" revision="jb4.xx" />
+  <project path="hardware/qcom/power" name="AoCP-TC/hardware_qcom_power" remote="github" revision="jb4.xx" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" revision="refs/tags/android-4.2.1_r1.2" />
-  <project path="hardware/ril" name="TheCollective/hardware_ril" remote="github" revision="jb4.xx" />
+  <project path="hardware/ril" name="AoCP-TC/hardware_ril" remote="github" revision="jb4.xx" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" revision="refs/tags/android-4.2.1_r1.2" />
-  <project path="hardware/ti/omap3" name="TheCollective/hardware_ti_omap3" remote="github" revision="jb4.xx" />
-  <project path="hardware/ti/omap4xxx" name="TheCollective/hardware_ti_omap4xxx" remote="github" revision="jb4.xx" />
-  <project path="hardware/ti/wlan" name="TheCollective/hardware_ti_wlan" remote="github" revision="jb4.xx" />
-  <project path="hardware/ti/wpan" name="TheCollective/hardware_ti_wpan" remote="github" revision="jb4.xx" />
-  <project path="libcore" name="TheCollective/platform_libcore" remote="github" revision="jb4.xx" />
+  <project path="hardware/ti/omap3" name="AoCP-TC/hardware_ti_omap3" remote="github" revision="jb4.xx" />
+  <project path="hardware/ti/omap4xxx" name="AoCP-TC/hardware_ti_omap4xxx" remote="github" revision="jb4.xx" />
+  <project path="hardware/ti/wlan" name="AoCP-TC/hardware_ti_wlan" remote="github" revision="jb4.xx" />
+  <project path="hardware/ti/wpan" name="AoCP-TC/hardware_ti_wpan" remote="github" revision="jb4.xx" />
+  <project path="libcore" name="AoCP-TC/platform_libcore" remote="github" revision="jb4.xx" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
-  <project path="packages/apps/Aspire" name="TheCollective/packages_apps_Aspire" remote="aocp" revision="jb4.xx" />
+  <project path="packages/apps/Aspire" name="AoCP-TC/packages_apps_Aspire" remote="aocp" revision="jb4.xx" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="TheCollective/android_packages_apps_Bluetooth" remote="aocp" revision="jb4.xx" />
-  <project path="packages/apps/Browser" name="TheCollective/packages_apps_Browser" remote="aocp" revision="jb4.xx" />
-  <project path="packages/apps/Calculator" name="TheCollective/packages_apps_Calculator" remote="aocp" revision="jb4.xx" />
-  <project path="packages/apps/Calendar" name="TheCollective/packages_apps_Calendar" remote="aocp" revision="jb4.xx" />
-  <project path="packages/apps/Camera" name="TheCollective/android_packages_apps_Camera" remote="aocp" revision="jb4.xx" />
+  <project path="packages/apps/Bluetooth" name="AoCP-TC/android_packages_apps_Bluetooth" remote="aocp" revision="jb4.xx" />
+  <project path="packages/apps/Browser" name="AoCP-TC/packages_apps_Browser" remote="aocp" revision="jb4.xx" />
+  <project path="packages/apps/Calculator" name="AoCP-TC/packages_apps_Calculator" remote="aocp" revision="jb4.xx" />
+  <project path="packages/apps/Calendar" name="AoCP-TC/packages_apps_Calendar" remote="aocp" revision="jb4.xx" />
+  <project path="packages/apps/Camera" name="AoCP-TC/android_packages_apps_Camera" remote="aocp" revision="jb4.xx" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="TheCollective/packages_apps_Contacts" remote="aocp" revision="jb4.xx" />
-  <project path="packages/apps/DashClock" name="TheCollective/packages_apps_DashClock" remote="aocp" revision="jb4.xx" />
-  <project path="packages/apps/DeskClock" name="TheCollective/packages_apps_DeskClock" remote="aocp" revision="jb4.xx" />
-  <project path="packages/apps/Email" name="TheCollective/android_packages_apps_Email" remote="aocp" revision="jb4.xx" />
+  <project path="packages/apps/Contacts" name="AoCP-TC/packages_apps_Contacts" remote="aocp" revision="jb4.xx" />
+  <project path="packages/apps/DashClock" name="AoCP-TC/packages_apps_DashClock" remote="aocp" revision="jb4.xx" />
+  <project path="packages/apps/DeskClock" name="AoCP-TC/packages_apps_DeskClock" remote="aocp" revision="jb4.xx" />
+  <project path="packages/apps/Email" name="AoCP-TC/android_packages_apps_Email" remote="aocp" revision="jb4.xx" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
-  <project path="packages/apps/Gallery2" name="TheCollective/android_packages_apps_Gallery2" remote="aocp" revision="jb4.xx" />
+  <project path="packages/apps/Gallery2" name="AoCP-TC/android_packages_apps_Gallery2" remote="aocp" revision="jb4.xx" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
-  <project path="packages/apps/Mms" name="TheCollective/packages_apps_Mms" remote="aocp" revision="jb4.xx" />
-  <project path="packages/apps/QuietTime" name="TheCollective/packages_apps_QuietTime" remote="aocp" revision="jb4.xx" />
+  <project path="packages/apps/Mms" name="AoCP-TC/packages_apps_Mms" remote="aocp" revision="jb4.xx" />
+  <project path="packages/apps/QuietTime" name="AoCP-TC/packages_apps_QuietTime" remote="aocp" revision="jb4.xx" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
-  <project path="packages/apps/Nfc" name="TheCollective/packages_apps_Nfc" remote="github" revision="jb4.xx" />
+  <project path="packages/apps/Nfc" name="AoCP-TC/packages_apps_Nfc" remote="github" revision="jb4.xx" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="TheCollective/packages_apps_Phone" remote="aocp" revision="jb4.xx" />
+  <project path="packages/apps/Phone" name="AoCP-TC/packages_apps_Phone" remote="aocp" revision="jb4.xx" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="TheCollective/packages_apps_Settings" remote="aocp" revision="jb4.xx" />
+  <project path="packages/apps/Settings" name="AoCP-TC/packages_apps_Settings" remote="aocp" revision="jb4.xx" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
-  <project path="packages/apps/SoundRecorder" name="TheCollective/packages_apps_SoundRecorder" remote="aocp" revision="jb4.xx" />
-  <project path="packages/apps/SpeechRecorder" name="TheCollective/packages_apps_SpeechRecorder" remote="aocp" revision="jb4.xx" />
+  <project path="packages/apps/SoundRecorder" name="AoCP-TC/packages_apps_SoundRecorder" remote="aocp" revision="jb4.xx" />
+  <project path="packages/apps/SpeechRecorder" name="AoCP-TC/packages_apps_SpeechRecorder" remote="aocp" revision="jb4.xx" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
-  <project path="packages/apps/Torch" name="TheCollective/packages_apps_Torch" remote="github" revision="jb4.xx" />
+  <project path="packages/apps/Torch" name="AoCP-TC/packages_apps_Torch" remote="github" revision="jb4.xx" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="TheCollective/packages_input_LatinIME" remote="aocp" revision="jb4.xx" />
+  <project path="packages/inputmethods/LatinIME" name="AoCP-TC/packages_input_LatinIME" remote="aocp" revision="jb4.xx" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
-  <project path="packages/providers/ContactsProvider" name="TheCollective/packages_providers_ContactsProvider" remote="github" revision="jb4.xx" />
+  <project path="packages/providers/ContactsProvider" name="AoCP-TC/packages_providers_ContactsProvider" remote="github" revision="jb4.xx" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="TheCollective/packages_providers_TelephonyProvider" remote="github" revision="jb4.xx" />
+  <project path="packages/providers/TelephonyProvider" name="AoCP-TC/packages_providers_TelephonyProvider" remote="github" revision="jb4.xx" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
-  <project path="packages/screensavers/Basic" name="TheCollective/packages_screensavers_Basic" remote="aocp" revision="jb4.xx" />
-  <project path="packages/screensavers/PhotoTable" name="TheCollective/packages_screensavers_PhotoTable" remote="aocp" revision="jb4.xx" />
-  <project path="packages/screensavers/WebView" name="TheCollective/packages_screensavers_WebView" remote="aocp" revision="jb4.xx" />
-  <project path="packages/wallpapers/AOCPWallpapers" name="TheCollective/aocp_AOCPWallpapers" remote="aocp" revision="jb4.xx" />
+  <project path="packages/screensavers/Basic" name="AoCP-TC/packages_screensavers_Basic" remote="aocp" revision="jb4.xx" />
+  <project path="packages/screensavers/PhotoTable" name="AoCP-TC/packages_screensavers_PhotoTable" remote="aocp" revision="jb4.xx" />
+  <project path="packages/screensavers/WebView" name="AoCP-TC/packages_screensavers_WebView" remote="aocp" revision="jb4.xx" />
+  <project path="packages/wallpapers/AOCPWallpapers" name="AoCP-TC/aocp_AOCPWallpapers" remote="aocp" revision="jb4.xx" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
@@ -327,28 +327,28 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/bluetooth" name="TheCollective/android_system_bluetooth" remote="github" revision="jb4.xx" />
-  <project path="system/core" name="TheCollective/android_system_core" remote="github" revision="jb4.xx" />
-  <project path="system/extras" name="TheCollective/android_system_extras" remote="github" revision="jb4.xx" />
+  <project path="system/bluetooth" name="AoCP-TC/android_system_bluetooth" remote="github" revision="jb4.xx" />
+  <project path="system/core" name="AoCP-TC/android_system_core" remote="github" revision="jb4.xx" />
+  <project path="system/extras" name="AoCP-TC/android_system_extras" remote="github" revision="jb4.xx" />
   <project path="system/media" name="platform/system/media" />
-  <project path="system/netd" name="TheCollective/android_system_netd" remote="github" revision="jb4.xx" />
+  <project path="system/netd" name="AoCP-TC/android_system_netd" remote="github" revision="jb4.xx" />
   <project path="system/security" name="platform/system/security" />
-  <project path="system/su" name="TheCollective/android_system_su"  remote="aocp" revision="jb4.xx"/>
-  <project path="system/vold" name="TheCollective/android_system_vold" remote="github" revision="jb4.xx" />
+  <project path="system/su" name="AoCP-TC/android_system_su"  remote="aocp" revision="jb4.xx"/>
+  <project path="system/vold" name="AoCP-TC/android_system_vold" remote="github" revision="jb4.xx" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
 
   <!-- New Additions for AoCP -->
-  <project path="buildscripts" name="TheCollective/aocp_buildscripts" remote="aocp" revision="jb4.xx">
+  <project path="buildscripts" name="AoCP-TC/aocp_buildscripts" remote="aocp" revision="jb4.xx">
       <copyfile src="samsung/build.sh" dest="build.sh" />
   </project> 
 
-  <project path="vendor/aocp" name="TheCollective/vendor_aocp" remote="aocp" revision="jb4.xx" />
-  <project path="prebuilt" name="TheCollective/android_prebuilt" remote="github" revision="jb4.xx" />
+  <project path="vendor/aocp" name="AoCP-TC/vendor_aocp" remote="aocp" revision="jb4.xx" />
+  <project path="prebuilt" name="AoCP-TC/android_prebuilt" remote="github" revision="jb4.xx" />
 
-  <project path="vendor/tmobile/apps/ThemeChooser" name="TheCollective/vendor_tmobile_apps_ThemeChooser" remote="aocp" revision="jb4.xx" />
+  <project path="vendor/tmobile/apps/ThemeChooser" name="AoCP-TC/vendor_tmobile_apps_ThemeChooser" remote="aocp" revision="jb4.xx" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" remote="github" revision="cm-10.1" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" remote="github" revision="cm-10.1" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" remote="github" revision="cm-10.1" />
 
-  <project path="platform_manifest" name="TheCollective/platform_manifest" remote="aocp" revision="jb4.xx" />
+  <project path="platform_manifest" name="AoCP-TC/platform_manifest" remote="aocp" revision="jb4.xx" />
 </manifest>
