@@ -338,7 +338,6 @@
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
 
   <!-- New Additions for AoCP -->
-  <project path="vendor/aocp" name="TheCollective/vendor_slim" remote="github" revision="jellybean2" />
   <project path="buildscripts" name="TheCollective/aocp_buildscripts" remote="aocp" revision="jellybean2">
       <copyfile src="samsung/build.sh" dest="build.sh" />
   </project> 
