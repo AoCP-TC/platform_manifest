@@ -19,9 +19,9 @@
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="AoCP-TC/bootable_recovery" remote="aocp" revision="jb4.xx" />
   <project path="cts" name="platform/cts" />
-  <project path="dalvik" name="AoCP-TC/android_dalvik" remote="github" revision="jb4.xx" />
+  <project path="dalvik" name="AoCP-TC/android_dalvik" remote="aocp" revision="jb4.xx" />
   <project path="development" name="AoCP-TC/android_development" remote="aocp" revision="jb4.xx" />
-  <project path="device/common" name="AoCP-TC/device_common" remote="aocp" revision="jb4.xx" />
+  <project path="device/common" name="AoCP-TC/android_device_common" remote="aocp" revision="jb4.xx" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
   <project path="device/generic/common" name="device/generic/common" />
