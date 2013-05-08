@@ -246,7 +246,7 @@
   <project path="hardware/ti/omap4xxx" name="AoCP-TC/android_hardware_ti_omap4xxx" remote="aocp" revision="jb4.xx" />
   <project path="hardware/ti/wlan" name="AoCP-TC/android_hardware_ti_wlan" remote="aocp" revision="jb4.xx" />
   <project path="hardware/ti/wpan" name="AoCP-TC/android_hardware_ti_wpan" remote="aocp" revision="jb4.xx" />
-  <project path="libcore" name="AoCP-TC/android_platform_libcore" remote="aocp" revision="jb4.xx" />
+  <project path="libcore" name="AoCP-TC/android_libcore" remote="aocp" revision="jb4.xx" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/Aspire" name="AoCP-TC/packages_apps_Aspire" remote="aocp" revision="jb4.xx" />
