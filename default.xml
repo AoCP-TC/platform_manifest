@@ -190,7 +190,7 @@
   <project path="external/yaffs2" name="AoCP-TC/android_external_yaffs2" remote="aocp" revision="jb4.xx" />
   <project path="external/zlib" name="AoCP-TC/android_external_zlib" remote="aocp" revision="jb4.xx" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="AoCP-TC/frameworks_av" remote="aocp" revision="jb4.xx" />
+  <project path="frameworks/av" name="AoCP-TC/android_frameworks_av" remote="aocp" revision="jb4.xx" />
   <project path="frameworks/base" name="AoCP-TC/android_frameworks_base" remote="aocp" revision="jb4.xx" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
@@ -200,7 +200,7 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="AoCP-TC/frameworks_native" remote="aocp" revision="jb4.xx" />
+  <project path="frameworks/native" name="AoCP-TC/android_frameworks_native" remote="aocp" revision="jb4.xx" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
@@ -208,7 +208,7 @@
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
-  <project path="frameworks/opt/telephony" name="AoCP-TC/frameworks_opt_telephony" remote="aocp" revision="jb4.xx" />
+  <project path="frameworks/opt/telephony" name="AoCP-TC/android_frameworks_opt_telephony" remote="aocp" revision="jb4.xx" />
   <project path="frameworks/opt/vcard" name="AoCP-TC/android_frameworks_opt_vcard" remote="aocp" revision="jb4.xx" />
   <project path="frameworks/rs" name="platform/frameworks/rs" />
   <project path="frameworks/support" name="platform/frameworks/support" />
