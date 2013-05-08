@@ -9,6 +9,10 @@
 
   <remote  name="aocp"
            fetch="http://github.com/" />
+           
+  <remote name="cm"
+          fetch="http://github.com/CyanogenMod/"
+          reveiw="reveiw.cyanogenmod.com" />
 
   <default revision="refs/tags/android-4.2.2_r1"
            remote="aosp"
