@@ -220,9 +220,9 @@
   <project path="gdk" name="platform/gdk" />
   <project path="hardware/broadcom/wlan" name="AoCP-TC/android_hardware_broadcom_wlan" remote="aocp" revision="jb4.xx" />
   <project path="hardware/invensense" name="platform/hardware/invensense" revision="refs/tags/android-4.2.1_r1.2" />
-  <project path="hardware/libhardware" name="AoCP-TC/hardware_libhardware" remote="aocp" revision="jb4.xx" />
+  <project path="hardware/libhardware" name="AoCP-TC/android_hardware_libhardware" remote="aocp" revision="jb4.xx" />
   <project path="hardware/libhardware_legacy" name="AoCP-TC/android_hardware_libhardware_legacy" remote="aocp" revision="jb4.xx" />
-  <project path="hardware/msm7k" name="AoCP-TC/hardware_msm7k" remote="aocp" revision="jb4.xx" />
+  <project path="hardware/msm7k" name="AoCP-TC/android_hardware_msm7k" remote="aocp" revision="jb4.xx" />
   <project path="hardware/qcom/audio" name="AoCP-TC/android_hardware_qcom_audio" remote="aocp" revision="jb4.xx" />
   <project path="hardware/qcom/audio-caf" name="AoCP-TC/android_hardware_qcom_audio-caf" remote="aocp" revision="jb4.xx" />
   <project path="hardware/qcom/bt" name="AoCP-TC/android_hardware_qcom_bt" remote="aocp" revision="jb4.xx" />
@@ -236,7 +236,7 @@
   <project path="hardware/qcom/power" name="AoCP-TC/android_hardware_qcom_power" remote="aocp" revision="jb4.xx" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" revision="refs/tags/android-4.2.1_r1.2" />
-  <project path="hardware/ril" name="AoCP-TC/hardware_ril" remote="github" revision="jb4.xx" />
+  <project path="hardware/ril" name="AoCP-TC/android_hardware_ril" remote="github" revision="jb4.xx" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/ti/omap3" name="AoCP-TC/android_hardware_ti_omap3" remote="aocp" revision="jb4.xx" />
   <project path="hardware/ti/omap4xxx" name="AoCP-TC/android_hardware_ti_omap4xxx" remote="github" revision="jb4.xx" />
