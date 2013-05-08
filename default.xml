@@ -280,7 +280,7 @@
   <project path="packages/apps/SpeechRecorder" name="AoCP-TC/packages_apps_SpeechRecorder" remote="aocp" revision="jb4.xx" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
-  <project path="packages/apps/Torch" name="AoCP-TC/packages_apps_Torch" remote="aocp" revision="jb4.xx" />
+  <project path="packages/apps/Torch" name="AoCP-TC/android_packages_apps_Torch" remote="aocp" revision="jb4.xx" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
@@ -289,7 +289,7 @@
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
-  <project path="packages/providers/ContactsProvider" name="AoCP-TC/packages_providers_ContactsProvider" remote="aocp" revision="jb4.xx" />
+  <project path="packages/providers/ContactsProvider" name="AoCP-TC/android_packages_providers_ContactsProvider" remote="aocp" revision="jb4.xx" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
   <project path="packages/providers/DrmProvider" name="platform/packages/providers/DrmProvider" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
