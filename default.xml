@@ -228,11 +228,11 @@
   <project path="hardware/libhardware_legacy" name="AoCP-TC/android_hardware_libhardware_legacy" remote="aocp" revision="jb4.xx" />
   <project path="hardware/msm7k" name="AoCP-TC/android_hardware_msm7k" remote="aocp" revision="jb4.xx" />
   <project path="hardware/qcom/audio" name="AoCP-TC/android_hardware_qcom_audio" remote="aocp" revision="jb4.xx" />
-  <project path="hardware/qcom/audio-caf" name="CyangenMod/android_hardware_qcom_audio-caf" remote="github" revision="cm-10.1" />
+  <project path="hardware/qcom/audio-caf" name="CyangenMod/android_hardware_qcom_audio-caf" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/bt" name="AoCP-TC/android_hardware_qcom_bt" remote="aocp" revision="jb4.xx" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/qcom/display" name="AoCP-TC/android_hardware_qcom_display" remote="aocp" revision="jb4.xx" />
-  <project path="hardware/qcom/display-caf" name="CyangenMod/android_hardware_qcom_display-caf" remote="github" revision="cm-10.1" />
+  <project path="hardware/qcom/display-caf" name="CyangenMod/android_hardware_qcom_display-caf" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/gps" name="AoCP-TC/android_hardware_qcom_gps" remote="aocp" revision="jb4.xx" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/qcom/media" name="AoCP-TC/android_hardware_qcom_media" remote="aocp" revision="jb4.xx" />
