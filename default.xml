@@ -270,17 +270,16 @@
   <project path="hardware/invensense" name="platform/hardware/invensense" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/libhardware" name="AoCP-TC/android_hardware_libhardware" remote="aocp" revision="kitkat" />
   <project path="hardware/libhardware_legacy" name="AoCP-TC/android_hardware_libhardware_legacy" remote="aocp" revision="kitkat" />
-  <project path="hardware/msm7k" name="AoCP-TC/android_hardware_msm7k" remote="aocp" revision="kitkat" />
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="cm" revision="cm-10.1" />
-  <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="cm" revision="cm-10.2" />
+  <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="cm" revision="cm-10.2" />
   <project path="hardware/qcom/bt" name="AoCP-TC/android_hardware_qcom_bt" remote="aocp" revision="kitkat" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cm" revision="cm-10.1" />
-  <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="cm" revision="cm-10.2" />
   <project path="hardware/qcom/gps" name="AoCP-TC/android_hardware_qcom_gps" remote="aocp" revision="kitkat" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" revision="refs/tags/android-4.2.1_r1.2" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cm" revision="cm-10.1" />
-  <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cm" revision="cm-10.2" />
+  <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="cm" revision="cm-10.2" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/qcom/power" name="AoCP-TC/android_hardware_qcom_power" remote="aocp" revision="kitkat" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" revision="refs/tags/android-4.2.1_r1.2" />
