@@ -22,6 +22,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
+  <project path="art" name="platform/art" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="AoCP-TC/bootable_recovery" remote="aocp" revision="kitkat" />
@@ -264,7 +265,7 @@
   <project path="frameworks/volley" name="platform/frameworks/volley" />
   <project path="frameworks/webview" name="platform/frameworks/webview" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
-  <project path="gdk" name="platform/gdk" />
+  <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/wlan" name="AoCP-TC/android_hardware_broadcom_wlan" remote="aocp" revision="kitkat" />
   <project path="hardware/invensense" name="platform/hardware/invensense" revision="refs/tags/android-4.2.1_r1.2" />
   <project path="hardware/libhardware" name="AoCP-TC/android_hardware_libhardware" remote="aocp" revision="kitkat" />
