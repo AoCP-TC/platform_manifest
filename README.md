@@ -1,6 +1,6 @@
 AOCP JELLYBEAN
 
-$ repo init -u https://github.com/AoCP-TC/platform_manifest.git -b kitkat
+$ repo init -u https://github.com/Collective-Phoenix/platform_manifest.git -b kitkat
 
 $ repo sync
 
