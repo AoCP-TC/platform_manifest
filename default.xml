@@ -18,14 +18,14 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="AoCP-TC/android_build" remote="aocp" revision="kitkat" >
+  <project path="build" name="Collective-Phoenix/android_build" remote="aocp" revision="kitkat" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="art" name="platform/art" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="AoCP-TC/bootable_recovery" remote="aocp" revision="kitkat" />
+  <project path="bootable/recovery" name="Collective-Phoenix/bootable_recovery" remote="aocp" revision="kitkat" />
   <project path="cts" name="platform/cts" groups="cts" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="developers/build" name="platform/developers/build" />
@@ -33,7 +33,7 @@
   <project path="developers/docs" name="platform/developers/docs" />
   <project path="developers/samples/android" name="platform/developers/samples/android" />
   <project path="development" name="platform/development" />
-  <project path="device/common" name="AoCP-TC/android_device_common" remote="aocp" revision="kitkat" />
+  <project path="device/common" name="Collective-Phoenix/android_device_common" remote="aocp" revision="kitkat" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
@@ -51,13 +51,13 @@
   <project path="external/apache-qp" name="platform/external/apache-qp" />
   <project path="external/apache-xml" name="platform/external/apache-xml" />
   <project path="external/arduino" name="platform/external/arduino" />
-  <project path="external/bash" name="AoCP-TC/android_external_bash" remote="aocp" revision="kitkat" />
+  <project path="external/bash" name="Collective-Phoenix/android_external_bash" remote="aocp" revision="kitkat" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" />
   <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
-  <project path="external/busybox" name="AoCP-TC/android_external_busybox" remote="aocp" revision="kitkat" />
+  <project path="external/busybox" name="Collective-Phoenix/android_external_busybox" remote="aocp" revision="kitkat" />
   <project path="external/bzip2" name="platform/external/bzip2" />
     <project path="external/ceres-solver" name="platform/external/ceres-solver" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
@@ -229,15 +229,15 @@
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
-  <project path="external/wpa_supplicant_6" name="AoCP-TC/android_external_wpa_supplicant_6" remote="aocp" revision="kitkat" />
-  <project path="external/wpa_supplicant_8" name="AoCP-TC/android_external_wpa_supplicant_8" remote="aocp" revision="kitkat" />
+  <project path="external/wpa_supplicant_6" name="Collective-Phoenix/android_external_wpa_supplicant_6" remote="aocp" revision="kitkat" />
+  <project path="external/wpa_supplicant_8" name="Collective-Phoenix/android_external_wpa_supplicant_8" remote="aocp" revision="kitkat" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" />
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
-  <project path="frameworks/base" name="AoCP-TC/android_frameworks_base" remote="aocp" revision="kitkat" />
+  <project path="frameworks/base" name="Collective-Phoenix/android_frameworks_base" remote="aocp" revision="kitkat" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -266,17 +266,17 @@
   <project path="frameworks/webview" name="platform/frameworks/webview" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="hardware/akm" name="platform/hardware/akm" />
-  <project path="hardware/broadcom/wlan" name="AoCP-TC/android_hardware_broadcom_wlan" remote="aocp" revision="kitkat" />
+  <project path="hardware/broadcom/wlan" name="Collective-Phoenix/android_hardware_broadcom_wlan" remote="aocp" revision="kitkat" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
-  <project path="hardware/libhardware" name="AoCP-TC/android_hardware_libhardware" remote="aocp" revision="kitkat" />
-  <project path="hardware/libhardware_legacy" name="AoCP-TC/android_hardware_libhardware_legacy" remote="aocp" revision="kitkat" />
+  <project path="hardware/libhardware" name="Collective-Phoenix/android_hardware_libhardware" remote="aocp" revision="kitkat" />
+  <project path="hardware/libhardware_legacy" name="Collective-Phoenix/android_hardware_libhardware_legacy" remote="aocp" revision="kitkat" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="cm" revision="cm-10.2" />
   <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/bt" name="AoCP-TC/android_hardware_qcom_bt" remote="aocp" revision="kitkat" />
+  <project path="hardware/qcom/bt" name="Collective-Phoenix/android_hardware_qcom_bt" remote="aocp" revision="kitkat" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cm" revision="cm-10.2" />
   <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/gps" name="AoCP-TC/android_hardware_qcom_gps" remote="aocp" revision="kitkat" />
+  <project path="hardware/qcom/gps" name="Collective-Phoenix/android_hardware_qcom_gps" remote="aocp" revision="kitkat" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cm" revision="cm-10.2" />
   <project path="hardware/qcom/media-caf" name="android_hardware_qcom_media-caf" remote="cm" revision="cm-10.2" />
@@ -293,7 +293,7 @@
   <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
-  <project path="packages/apps/Aspire" name="AoCP-TC/packages_apps_Aspire" remote="aocp" revision="kitkat" />
+  <project path="packages/apps/Aspire" name="Collective-Phoenix/packages_apps_Aspire" remote="aocp" revision="kitkat" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
   <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
@@ -310,28 +310,28 @@
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
-  <project path="packages/apps/Gallery2" name="AoCP-TC/android_packages_apps_Gallery2" remote="aocp" revision="kitkat" />
+  <project path="packages/apps/Gallery2" name="Collective-Phoenix/android_packages_apps_Gallery2" remote="aocp" revision="kitkat" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
-  <project path="packages/apps/Mms" name="AoCP-TC/packages_apps_Mms" remote="aocp" revision="kitkat" />
-  <project path="packages/apps/QuietTime" name="AoCP-TC/packages_apps_QuietTime" remote="aocp" revision="kitkat" />
+  <project path="packages/apps/Mms" name="Collective-Phoenix/packages_apps_Mms" remote="aocp" revision="kitkat" />
+  <project path="packages/apps/QuietTime" name="Collective-Phoenix/packages_apps_QuietTime" remote="aocp" revision="kitkat" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
-  <project path="packages/apps/Nfc" name="AoCP-TC/android_packages_apps_Nfc" remote="aocp" revision="kitkat" />
+  <project path="packages/apps/Nfc" name="Collective-Phoenix/android_packages_apps_Nfc" remote="aocp" revision="kitkat" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="AoCP-TC/packages_apps_Phone" remote="aocp" revision="kitkat" />
+  <project path="packages/apps/Phone" name="Collective-Phoenix/packages_apps_Phone" remote="aocp" revision="kitkat" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="AoCP-TC/packages_apps_Settings" remote="aocp" revision="kitkat" />
+  <project path="packages/apps/Settings" name="Collective-Phoenix/packages_apps_Settings" remote="aocp" revision="kitkat" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
-  <project path="packages/apps/SoundRecorder" name="AoCP-TC/packages_apps_SoundRecorder" remote="aocp" revision="kitkat" />
+  <project path="packages/apps/SoundRecorder" name="Collective-Phoenix/packages_apps_SoundRecorder" remote="aocp" revision="kitkat" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
@@ -412,7 +412,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/bluetooth" name="AoCP-TC/android_system_bluetooth" remote="aocp" revision="kitkat" />
+  <project path="system/bluetooth" name="Collective-Phoenix/android_system_bluetooth" remote="aocp" revision="kitkat" />
   <project path="system/core" name="platform/system/core" groups="pdk" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
@@ -431,18 +431,18 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <!-- New Additions for AoCP -->
-  <project path="buildscripts" name="AoCP-TC/aocp_buildscripts" remote="aocp" revision="kitkat">
+  <project path="buildscripts" name="Collective-Phoenix/aocp_buildscripts" remote="aocp" revision="kitkat">
       <copyfile src="samsung/build.sh" dest="build.sh" />
   </project> 
 
-  <project path="vendor/aocp" name="AoCP-TC/vendor_aocp" remote="aocp" revision="kitkat" />
-  <project path="prebuilt" name="AoCP-TC/android_prebuilt" remote="aocp" revision="kitkat" />
+  <project path="vendor/aocp" name="Collective-Phoenix/vendor_aocp" remote="aocp" revision="kitkat" />
+  <project path="prebuilt" name="Collective-Phoenix/android_prebuilt" remote="aocp" revision="kitkat" />
 
-  <project path="vendor/tmobile/apps/ThemeChooser" name="AoCP-TC/vendor_tmobile_apps_ThemeChooser" remote="aocp" revision="kitkat" />
+  <project path="vendor/tmobile/apps/ThemeChooser" name="Collective-Phoenix/vendor_tmobile_apps_ThemeChooser" remote="aocp" revision="kitkat" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" remote="github" revision="cm-10.1" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" remote="github" revision="cm-10.1" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" remote="github" revision="cm-10.1" />
-  <project path="vendor/tmobile/themes/AoCP_Icon_Pack" name="AoCP-TC/vendor_tmobile_AoCP_Icon_Pack" remote="aocp" revision="kitkat" />
+  <project path="vendor/tmobile/themes/AoCP_Icon_Pack" name="Collective-Phoenix/vendor_tmobile_AoCP_Icon_Pack" remote="aocp" revision="kitkat" />
 
-  <project path="platform_manifest" name="AoCP-TC/platform_manifest" remote="aocp" revision="kitkat" />
+  <project path="platform_manifest" name="Collective-Phoenix/platform_manifest" remote="aocp" revision="kitkat" />
 </manifest>
