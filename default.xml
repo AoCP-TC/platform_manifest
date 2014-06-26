@@ -458,7 +458,7 @@
   <project path="vendor/aocp" name="Collective-Phoenix/vendor_aocp" remote="aocp" revision="refs/heads/kitkat" />
   <project path="vendor/aocp/bot" name="Collective-Phoenix/pseudo_buildbot" remote="aocp" revision="refs/heads/kitkat" />
 
-  <project path="vendor/tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aocp" revision="refs/heads/kitkat" />
+  <project path="vendor/tmobile/apps/ThemeChooser" name="Collective-Phoenix/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aocp" revision="refs/heads/kitkat" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="Collective-Phoenix/android_vendor_tmobile_libs_com.tmobile.themes" remote="aocp" revision="refs/heads/kitkat" />
   <project path="vendor/tmobile/providers/ThemeManager" name="Collective-Phoenix/android_vendor_tmobile_providers_ThemeManager" remote="aocp" revision="refs/heads/kitkat" />
   <project path="vendor/tmobile/products/themes" name="Collective-Phoenix/vendor_tmobile_products_themes" remote="aocp" revision="refs/heads/kitkat" />
