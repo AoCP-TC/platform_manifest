@@ -9,10 +9,10 @@
            fetch=".." />
 
   <remote  name="aocp"
-           fetch="http://github.com/" />
+           fetch="https://github.com/" />
 
   <remote  name="cm"
-           fetch="http://github.com/CyanogenMod/"
+           fetch="https://github.com/CyanogenMod/"
            review="review.cyanogenmod.com" />
 
   <default revision="refs/tags/android-4.4.4_r1"
